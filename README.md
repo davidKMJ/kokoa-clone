@@ -1,3 +1,3 @@
 # Kokoa Clone
 
-Reviewing basic HTML, CSS
+Reviewing basic HTML & CSS
