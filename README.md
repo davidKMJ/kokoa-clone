@@ -1,3 +1,3 @@
-# Kokoa Clone
+# kokoa-clone
 
 Reviewing basic HTML & CSS
