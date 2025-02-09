@@ -2,14 +2,14 @@
     position: fixed;
     width: 100%;
     bottom: 0;
-    background-color: #f9f9fa;
+    background-color: #202020;
     box-sizing: border-box;
     padding: 20px 50px;
     border-top: 1px solid rgba(121, 121, 121, 0.3);
 }
 
 .nav__link {
-    color: #2e363e;
+    color: #ededed;
     text-decoration: none;
     position: relative;
 }

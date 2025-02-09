@@ -9,21 +9,18 @@
     <body>
         <div class="status-bar">
             <div class="status-bar__column">
-                <span>No Service</span>
-                <i class="fa-solid fa-wifi"></i>
-            </div>
-            <div class="status-bar__column">
                 <span>18:43</span>
+                <span>SKT</span>
             </div>
             <div class="status-bar__column">
-                <span>110%</span>
+                <i class="fa-solid fa-wifi"></i>
+                <span>72%</span>
                 <i class="fa-solid fa-battery-full fa-lg"></i>
-                <i class="fa-solid fa-bolt"></i>
             </div>
         </div>
 
         <header class="welcome-header">
-            <h1 class="welcome-header__title">Welcome to Kokoa Clone</h1>
+            <h1 class="welcome-header__title">Welcome to Dark Kokoa</h1>
             <p class="welcome-header__text">
                 If you have a Kokoa Account, log in with your email or phone
                 number.
@@ -35,8 +32,9 @@
                 name="username"
                 type="text"
                 placeholder="Email or phone number"
+                required
             />
-            <input name="password" type="password" placeholder="Password" />
+            <input name="password" type="password" placeholder="Password" required/>
             <input type="submit" value="Log In" />
             <a href="#">Find Kokoa Account or Password</a>
         </form>

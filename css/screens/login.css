@@ -24,6 +24,8 @@
 }
 
 #login-form input {
+    background-color: var(--dark-background);
+    color: var(--dark-text);
     border: none;
     padding: 10px 0px;
     font-size: 18px;
@@ -31,12 +33,12 @@
 }
 
 #login-form input:not([type="submit"]) {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
     transition: border-color 0.1s ease-in-out;
 }
 
 #login-form input::placeholder {
-    color: rgba(0, 0, 0, 0.4);
+    color: rgba(255, 255, 255, 0.5);
 }
 
 #login-form input:focus {
@@ -45,6 +47,7 @@
 
 #login-form input[type="submit"] {
     background-color: var(--yellow);
+    color: var(--dark-background);
     cursor: pointer;
     padding: 20px 0px;
     border-radius: 5px;

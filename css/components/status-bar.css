@@ -1,31 +1,28 @@
 .status-bar {
-    background-color: white;
+    background-color: #202020;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     padding: 5px 3px;
     position: fixed;
     width: 100%;
     box-sizing: border-box;
     top: 0;
-}
-
-.status-bar__column {
-    width: 33%;
+    left: 0;
+    color: #ededed;
 }
 
 .status-bar__column:first-child span {
     margin-right: 5px;
 }
 
-.status-bar__column:nth-child(2) {
-    display: flex;
-    justify-content: center;
-}
-
 .status-bar__column:last-child {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+}
+
+.status-bar__column:last-child span {
+    margin-left: 8px;
 }
 
 .status-bar__column .fa-battery-full {
