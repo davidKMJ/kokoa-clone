@@ -1,5 +1,7 @@
 # kokoa-clone
 
+HTML and CSS learning project that goes through fundamental web development concepts by building a messaging app clone.
+
 ## Table of Contents
 
 1. [HTML Fundamentals](#html-fundamentals)
@@ -463,3 +465,39 @@ Structure CSS imports logically:
 ```
 
 **Example in project**: See `css/styles.css` for import organization.
+
+---
+
+## Project Structure
+
+```
+kokoa-clone/
+├── index.html              # Login/welcome screen
+├── friends.html            # Friends list screen
+├── chats.html              # Chat list screen
+├── chat.html               # Individual chat screen
+├── find.html               # Find/discover screen
+├── more.html               # More options screen
+├── settings.html           # Settings screen
+└── css/
+    ├── styles.css          # Main stylesheet with imports
+    ├── variables.css       # CSS custom properties
+    ├── reset.css           # CSS reset for cross-browser consistency
+    ├── components/         # Reusable UI components
+    │   ├── status-bar.css  # Mobile status bar styling
+    │   ├── nav-bar.css     # Bottom navigation bar
+    │   ├── screen-header.css # Screen header component
+    │   ├── user-component.css # User profile component
+    │   ├── badge.css       # Notification badges
+    │   ├── icon-row.css    # Icon row component
+    │   ├── alt-screen-header.css # Alternative header
+    │   └── no-mobile.css   # Desktop warning styles
+    └── screens/            # Screen-specific styles
+        ├── login.css       # Login screen styling
+        ├── friends.css     # Friends screen styling
+        ├── chats.css       # Chat list styling
+        ├── chat.css        # Individual chat styling
+        ├── find.css        # Find screen styling
+        ├── more.css        # More screen styling
+        └── settings.css    # Settings screen styling
+```
