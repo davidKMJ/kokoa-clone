@@ -20,7 +20,6 @@
     color: var(--dark-text);
 }
 
-
 @keyframes rotateCog {
     from {
         transform: rotate(0deg);
