@@ -1,6 +1,81 @@
 # kokoa-clone
 
-HTML and CSS learning project that goes through fundamental web development concepts by building a messaging app clone.
+![Static Badge](https://img.shields.io/badge/status-published-brightgreen?style=for-the-badge)
+![Static Badge](https://img.shields.io/badge/type-learning_project-blue?style=for-the-badge)
+
+HTML and CSS learning project that demonstrates fundamental web development concepts by building a mobile-first messaging app clone.
+
+## How to Start
+
+### Environment
+- Modern web browser (Chrome, Firefox, Safari, Edge)
+- No build tools or package managers required
+- Static HTML/CSS project
+
+### Quick Start
+
+```bash
+# Clone the repository
+git clone https://github.com/<username>/kokoa-clone.git
+cd kokoa-clone
+
+# Open in browser
+# Simply open index.html in your web browser
+# Or use a local server:
+python -m http.server 8000
+# Then visit http://localhost:8000
+```
+
+## Key Features
+
+1. **Mobile-First Design** – Responsive layout optimized for mobile devices with desktop warning
+2. **Component-Based Architecture** – Reusable UI components following BEM methodology
+3. **Smooth Animations** – CSS keyframe animations and transitions for interactive elements
+4. **Dark Theme** – Modern dark color scheme with CSS custom properties
+5. **Multiple Screens** – Complete app interface with login, friends, chats, find, more, and settings screens
+
+## Technical Stack
+
+- **HTML5** – Semantic markup and form elements
+- **CSS3** – Advanced styling with Flexbox, animations, and responsive design
+- **Font Awesome** – Icon library for UI elements
+- **BEM Methodology** – Component naming convention for maintainable CSS
+- **CSS Variables** – Custom properties for theming and consistency
+
+## Project Structure
+
+```
+kokoa-clone/
+├── index.html              # Login/welcome screen
+├── friends.html            # Friends list screen
+├── chats.html              # Chat list screen
+├── chat.html               # Individual chat screen
+├── find.html               # Find/discover screen
+├── more.html               # More options screen
+├── settings.html           # Settings screen
+├── css/                    # Stylesheets
+│   ├── styles.css          # Main stylesheet with imports
+│   ├── variables.css       # CSS custom properties
+│   ├── reset.css           # CSS reset for cross-browser consistency
+│   ├── components/         # Reusable UI components
+│   │   ├── status-bar.css  # Mobile status bar styling
+│   │   ├── nav-bar.css     # Bottom navigation bar
+│   │   ├── screen-header.css # Screen header component
+│   │   ├── user-component.css # User profile component
+│   │   ├── badge.css       # Notification badges
+│   │   ├── icon-row.css    # Icon row component
+│   │   ├── alt-screen-header.css # Alternative header
+│   │   └── no-mobile.css   # Desktop warning styles
+│   └── screens/            # Screen-specific styles
+│       ├── login.css       # Login screen styling
+│       ├── friends.css     # Friends screen styling
+│       ├── chats.css       # Chat list styling
+│       ├── chat.css        # Individual chat styling
+│       ├── find.css        # Find screen styling
+│       ├── more.css        # More screen styling
+│       └── settings.css    # Settings screen styling
+└── README.md               # Project documentation
+```
 
 ## Table of Contents
 
@@ -465,39 +540,3 @@ Structure CSS imports logically:
 ```
 
 **Example in project**: See `css/styles.css` for import organization.
-
----
-
-## Project Structure
-
-```
-kokoa-clone/
-├── index.html              # Login/welcome screen
-├── friends.html            # Friends list screen
-├── chats.html              # Chat list screen
-├── chat.html               # Individual chat screen
-├── find.html               # Find/discover screen
-├── more.html               # More options screen
-├── settings.html           # Settings screen
-└── css/
-    ├── styles.css          # Main stylesheet with imports
-    ├── variables.css       # CSS custom properties
-    ├── reset.css           # CSS reset for cross-browser consistency
-    ├── components/         # Reusable UI components
-    │   ├── status-bar.css  # Mobile status bar styling
-    │   ├── nav-bar.css     # Bottom navigation bar
-    │   ├── screen-header.css # Screen header component
-    │   ├── user-component.css # User profile component
-    │   ├── badge.css       # Notification badges
-    │   ├── icon-row.css    # Icon row component
-    │   ├── alt-screen-header.css # Alternative header
-    │   └── no-mobile.css   # Desktop warning styles
-    └── screens/            # Screen-specific styles
-        ├── login.css       # Login screen styling
-        ├── friends.css     # Friends screen styling
-        ├── chats.css       # Chat list styling
-        ├── chat.css        # Individual chat styling
-        ├── find.css        # Find screen styling
-        ├── more.css        # More screen styling
-        └── settings.css    # Settings screen styling
-```
